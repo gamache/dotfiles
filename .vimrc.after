@@ -1,0 +1,9 @@
+let g:auto_save=1
+colorscheme rdark
+set conceallevel=0
+autocmd FileType * setlocal conceallevel=0
+set guioptions-=m
+set guioptions-=T
+set guifont=9x15
+set colorcolumn=80
+
