@@ -1,0 +1,26 @@
+[user]
+	email = pete@gamache.org
+	name = pete gamache
+
+[github]
+  user = gamache
+
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  uncommit = reset --soft HEAD^
+  uc = reset --soft HEAD^
+
+
+[push]
+	default = current
+[pull]
+	default = current
+[core]
+	editor = /usr/bin/vim
